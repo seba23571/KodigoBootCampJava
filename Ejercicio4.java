@@ -1,25 +1,25 @@
-
+package segregacion.interfaces;
 
 import java.util.Scanner;
 
 /*
-Para resolver este problema en Java, 
-puedes utilizar el operador módulo % para determinar si un número es divisible entre dos. Por ejemplo:
+Ejercicio 4: 
+Modificar el ejercicio anterior, para que nos pida el nombre que queremos introducir
+
 
  */
 public class Ejercicio4 {
 
     public static void main(String[] args) {
+       // String nombre = "Sebastian ";
+       // System.out.println("Bienvenido " + nombre);
+
         Scanner entrada = new Scanner(System.in);
 
-        System.out.println("Introduce un número: ");
-        int num = entrada.nextInt();
+        System.out.println("Introduce tu nombre: ");
+        String miNombre = entrada.nextLine();
 
-        if (num % 2 == 0) {
-            System.out.println(num + " es divisible entre 2");
-        } else {
-            System.out.println(num + " no es divisible entre 2");
-        }
+        System.out.println("Bienvenido " + miNombre);
 
     }
 
