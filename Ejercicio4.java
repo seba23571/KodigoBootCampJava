@@ -1,4 +1,4 @@
-package segregacion.interfaces;
+ 
 
 import java.util.Scanner;
 
