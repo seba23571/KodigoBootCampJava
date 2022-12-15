@@ -9,16 +9,18 @@ por consola. Por ejemplo: si introduzco «Fernando», me aparezca «Bienvenido F
  */
 public class Ejercicio3 {
 
-    public static void main(String[] args) {
-        String nombre = "Fernando";
+     public static void main(String[] args) {
+        String nombre = "Sebastian ";
         System.out.println("Bienvenido " + nombre);
 
-        Scanner entrada = new Scanner(System.in);
+      //  Scanner entrada = new Scanner(System.in);
+        
+       //   System.out.println("Bienvenido " + entrada);
 
-        System.out.println("Introduce tu nombre: ");
-        String miNombre = entrada.nextLine();
+    //    System.out.println("Introduce tu nombre: ");
+    //    String miNombre = entrada.nextLine();
 
-        System.out.println("Bienvenido " + miNombre);
+    //    System.out.println("Bienvenido " + miNombre);
     }
 
 }
